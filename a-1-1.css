@@ -1,0 +1,69 @@
+body{
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+h3{
+ font-family: "EB Garamond";
+ font-weight:bold;
+}
+
+.title_kor{
+ font-family: "Nanum Myeongjo";
+ font-weight:900;
+ font-size: 18px;
+}
+
+.des_kor{
+  font-family:"Nanum Myeongjo";
+  font-weight: 300;
+  font-size: 14px;
+  text-align: left;
+
+}
+
+.des_eng{
+  font-family: "EB Garamond";
+  font-weight: 300;
+  font-size: 14px;
+  text-align: left;
+  color: #9f9f9f;
+
+}
+
+@media screen and (max-width: 600px) {
+  img{
+    width: 100%;
+  }
+}
+
+/* unvisited link */
+a:link {
+  color: #000;
+}
+
+/* visited link */
+a:visited {
+  color: #000;
+}
+
+/* mouse over link */
+a:hover {
+  color: #c8c8c8;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 0;
+  margin-right: auto;
+  width: 400px;
+  align: left;
+}
+
+@media only screen and (min-width: 601px){
+  hr{
+    width: 700px;
+  }
+}
